@@ -1,0 +1,12 @@
+{
+  "name": "asset-manager",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "backend": "npm --prefix backend run start",
+    "frontend": "npm --prefix frontend start"
+  }
+}
